@@ -1,12 +1,17 @@
-Crea componente contribuyentes.js REACT en directorio src/components 
-con la imagen proporcionada en resources/consulta.png
-Utiliza bootstrap para cada componente de la pantalla
-Crear función para buscar el nombre capturado en la caja de texto, haciendo un llamado al servicio 
-http://localhost:3002/contribuyente?nombre_like= 
-pasando el nombre en la url del servicio
+Crea directorio src/components
+
+Crea componente contribuyentes.js REACT en directorio src/components tomando como base la imagen proporcionada en resources/consulta.png
+
+Utiliza react-bootstrap para cada componente de la pantalla
+
+Crear función para buscar el nombre capturado en la caja de texto, haciendo un llamado al servicio http://localhost:3002/contribuyente?nombre_like= pasando el nombre capturado en la url del servicio
+
 Extraer de la respuesta JSON los datos y ponerlos en la columna que le corresponde:
-nombre en la columna nombre
-correo en la columna correo
-rfc en la columna rfc
-empresa en la columna empresa
+    nombre en la columna nombre
+    correo en la columna correo
+    rfc en la columna rfc
+    empresa en la columna empresa
+
 Modificar el archivo index.js para que muestre el componente contribuyentes
+
+Utiliza axios para hacer el llamado al servicio y react-bootstrap-table-next para mostrar los datos
