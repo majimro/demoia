@@ -1,0 +1,7 @@
+Crea componente contribuyentes.js REACT en directorio components con la imagen proporcionada
+Utiliza bootstrap para cada componente de la pantalla
+Crear función para buscar el nombre capturado en la caja de texto, haciendo un llamado al servicio 
+http://localhost:3002/contribuyente?nombre_like= 
+pasando el nombre en la url del servicio
+Extraer de la respuesta JSON los datos y ponerlos en la columna que le corresponde
+Modificar el archivo index.js para que muestre el componente contribuyentes

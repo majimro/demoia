@@ -1,0 +1,46 @@
+{
+    "contribuyente": [
+        {
+            "id": "1",
+            "nombre": "Karla Morris Treviño",
+            "correo": "kmorris@dominio.com",
+            "rfc": "KMT890101RT4",
+            "empresa": "Bimbo"
+		    },
+		    {
+            "id": "2",
+            "nombre": "Fernando García Luevano",
+            "correo": "fgarcialuevano@dominio.com",
+            "rfc": "FGA920301M9T",
+            "empresa": "Barceloneta"
+        },
+		    {
+            "id": "3",
+            "nombre": "Luis Fernando Godinez Pedraza",
+            "correo": "lfgodinez@dominio.com",
+            "rfc": "LFG720302PU2",
+            "empresa": "Tesla"
+        },
+        {
+            "id": "4",
+            "nombre": "Raul Ramirez",
+            "correo": "rramirez@dominio.com",
+            "rfc": "RRR890101RT4",
+            "empresa": "Bimbo"
+		    },
+		    {
+            "id": "5",
+            "nombre": "Luis Fernando Godinez Pedraza",
+            "correo": "lfgodinez@dominio.com",
+            "rfc": "LFG720302PU2",
+            "empresa": "Tesla"
+        },
+		    {
+            "id": "6",
+            "nombre": "Pedro Ramirez Gonzalez",
+            "correo": "pramirez@dominio.com",
+            "rfc": "PRG690101L9T",
+            "empresa": "Bimbo"
+        }
+    ]
+}
