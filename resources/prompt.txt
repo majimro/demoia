@@ -12,6 +12,6 @@ Extraer de la respuesta JSON los datos y ponerlos en la columna que le correspon
     rfc en la columna rfc
     empresa en la columna empresa
 
-Modificar el archivo index.js para que muestre el componente contribuyentes
+Modificar el archivo index.js para que muestre el componente contribuyentes.js
 
 Utiliza axios para hacer el llamado al servicio y react-bootstrap-table-next para mostrar los datos
