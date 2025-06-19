@@ -1,0 +1,69 @@
+# Reglas para un desarrollador front REACT
+
+* Utilizar react-bootstrap para cada componente de la pantalla.
+* Utilizar axios para la integración con web service.
+
+## Estructura de Carpetas y Archivos
+
+* La estructura de carpetas y archivos se organizará de la siguiente manera:
+	+ src
+		- components
+			- [Componente]
+				- [Componente].js
+				- [Componente].css
+				- [Componente].test.js
+		- containers
+			- [Contenedor]
+				- [Contenedor].js
+				- [Contenedor].css
+				- [Contenedor].test.js
+		- images
+		- utils
+		- index.js
+		- index.css
+	+ public
+		- index.html
+	+ tests
+		- [Test]
+			- [Test].js
+	+ package.json
+	+ README.md
+
+## Componentes
+
+* Cada componente debe tener su propio archivo .js y .css
+* Los componentes deben ser funcionales, es decir, no deben tener estado y no deben utilizar el hook useState
+* Los componentes deben ser lo más pequeños posible y no deben contener lógica de negocio
+* Los componentes deben ser reutilizables en diferentes partes de la aplicación
+
+## Contenedores
+
+* Cada contenedor debe tener su propio archivo .js y .css
+* Los contenedores deben contener la lógica de negocio y no deben contener componentes
+* Los contenedores deben ser lo más pequeños posible y no deben contener lógica de presentación
+
+## Imágenes
+
+* Las imágenes se guardarán en la carpeta images
+* Las imágenes deben tener un nombre descriptivo y no deben contener espacios ni caracteres especiales
+
+## Utilidades
+
+* Las utilidades se guardarán en la carpeta utils
+* Las utilidades deben tener un nombre descriptivo y no deben contener espacios ni caracteres especiales
+
+## Archivos de prueba
+
+* Los archivos de prueba se guardarán en la carpeta tests
+* Los archivos de prueba deben tener un nombre descriptivo y no deben contener espacios ni caracteres especiales
+* Los archivos de prueba deben ser lo más pequeños posible y no deben contener lógica de negocio
+
+## Archivo de configuración
+
+* El archivo de configuración se guardará en la raíz del proyecto con el nombre package.json
+* El archivo de configuración debe contener la información necesaria para instalar y ejecutar la aplicación
+
+## Archivo README
+
+* El archivo README se guardará en la raíz del proyecto con el nombre README.md
+* El archivo README debe contener información sobre la aplicación, como su nombre, descripción, autor, licencia, etc.
